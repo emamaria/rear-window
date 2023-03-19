@@ -7,6 +7,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { CastsComponent } from './pages/casts/casts.component';
 import { CharactersComponent } from './pages/characters/characters.component';
 import { TechnicalComponent } from './pages/technical/technical.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TechnicalComponent } from './pages/technical/technical.component';
     FooterComponent,
     CastsComponent,
     CharactersComponent,
-    TechnicalComponent
+    TechnicalComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule

@@ -2,31 +2,31 @@ ul{
     list-style: none;
 }
 
-nav{
+header{
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     height: 70px;
     background-color: red;
     align-items: center;
+    
 }
 
-nav ul li{
+header ul li{
     display: inline-block;
     margin: 0 18px;
     transition: all 0.2s;
 }
 
-nav ul li:hover{
+header ul li:hover{
     transform: scale(1.2);
 }
 
-nav ul{
+header nav{
     margin-right: 15px;
 }
 
 .title{
-    margin-left: 15px;
-    font-size: 30px;
+    margin-left: 20px;
    
 }
