@@ -3,8 +3,9 @@ ul{
 }
 
 nav{
+    font-size: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 70px;
     background-color: red;
     align-items: center;
@@ -24,3 +25,8 @@ nav ul{
     margin-right: 15px;
 }
 
+.title{
+    margin-left: 15px;
+    font-size: 30px;
+   
+}

@@ -4,6 +4,7 @@ footer{
     height: 120px;
     background-color: gray;
     align-items: center;
+    font-size: 20px;
 }
 
 .sns i{
