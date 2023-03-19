@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    background-color: red;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 18px;
+    transition: all 0.2s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+nav ul{
+    margin-right: 15px;
+}
+
