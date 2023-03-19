@@ -1,0 +1,22 @@
+.slideshow{
+    background-color: darkblue;
+    width: 600px;
+    overflow: hidden;
+}
+
+img{
+    width: 600px;
+    
+}
+
+.slideshow ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-left: 0px;
+}
+
+p{
+    position: absolute;
+    top: 20px;
+}
