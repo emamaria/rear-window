@@ -5,3 +5,10 @@ section{
     justify-content: center;
     /* background-color: red; */
 }
+
+h1{
+
+    text-align: center;
+    padding: 100px 0px 40px 0px;
+    color: #2e9cca;
+}
