@@ -10,8 +10,9 @@ export class SliderComponent {
    marginValue: string =""
    interval:any
    slidePosition:number = 1
-   current:number = 0
-   width:number = 600
+   width:number = 850
+   images: string[] = ["slide1", "slide2", "slide3", "slide4", "slide5", "slide6",
+   "slide7", "slide8", "slide9", "slide10", "slide11", "slide12", "slide13"]
  
  
 
@@ -19,9 +20,9 @@ export class SliderComponent {
   
     this.interval = setInterval(()=>{
       
-      if(this.slidePosition === 5){
+      if(this.slidePosition === 13){
 
-        this.marginValue = "600px"
+        this.marginValue = "850px"
         this.slidePosition = 0
         
       }
@@ -29,7 +30,7 @@ export class SliderComponent {
       this.slidePosition++
       console.log(this.marginValue);
       console.log(this.slidePosition);
-    }, 3000)
+    }, 2000)
   
   }
 

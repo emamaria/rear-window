@@ -1,9 +1,7 @@
 <div class="slideshow">
   <ul class="slide-list" [ngStyle]="{ 'margin-left': marginValue }">
-    <li><img src="../../../assets/img/slide1.jpg" /></li>
-    <li><img src="../../../assets/img/slide2.jpg" /></li>
-    <li><img src="../../../assets/img/slide3.jpg" /></li>
-    <li><img src="../../../assets/img/slide4.jpg" /></li>
-    <li><img src="../../../assets/img/slide5.jpg" /></li>
+    <li *ngFor="let image of images">
+      <img alt="{{ image }}" src="../../../assets/img/{{ image }}.jpg" />
+    </li>
   </ul>
 </div>

@@ -1,11 +1,13 @@
 .slideshow{
-    background-color: darkblue;
-    width: 600px;
+    /* background-color: darkblue; */
+    width: 850px;
     overflow: hidden;
+    height: 480px;
 }
 
 img{
-    width: 600px;
+    width: 850px;
+    height: 480px;
     
 }
 
