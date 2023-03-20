@@ -9,7 +9,7 @@ header{
     height: 70px;
     background-color: #464866;
     align-items: center;
-    color: white;
+    
     
 }
 
@@ -23,6 +23,11 @@ header ul li{
 header ul li:hover{
     transform: scale(1.2);
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 header nav{
     margin-right: 15px;
