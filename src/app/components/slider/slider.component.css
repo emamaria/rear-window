@@ -3,7 +3,9 @@
     width: 850px;
     overflow: hidden;
     height: 480px;
-    border: 10px gray solid;
+    /* border: 3px #29648a solid; */
+    border: 3px white solid;
+   
    
 }
 

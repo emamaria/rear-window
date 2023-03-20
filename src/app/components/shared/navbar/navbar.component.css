@@ -7,8 +7,9 @@ header{
     display: flex;
     justify-content: space-between;
     height: 70px;
-    background-color: red;
+    background-color: #464866;
     align-items: center;
+    color: white;
     
 }
 
@@ -16,6 +17,7 @@ header ul li{
     display: inline-block;
     margin: 0 18px;
     transition: all 0.2s;
+
 }
 
 header ul li:hover{
@@ -28,5 +30,5 @@ header nav{
 
 .title{
     margin-left: 20px;
-   
+    color: #2e9cca;
 }
