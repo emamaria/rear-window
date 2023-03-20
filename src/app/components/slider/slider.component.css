@@ -3,6 +3,8 @@
     width: 850px;
     overflow: hidden;
     height: 480px;
+    border: 10px gray solid;
+   
 }
 
 img{
@@ -16,9 +18,7 @@ img{
     display: flex;
     padding: 0;
     margin-left: 0px;
+    background-color: pink;
 }
 
-p{
-    position: absolute;
-    top: 20px;
-}
+

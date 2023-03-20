@@ -12,7 +12,7 @@ export class SliderComponent {
    slidePosition:number = 1
    width:number = 850
    images: string[] = ["slide1", "slide2", "slide3", "slide4", "slide5", "slide6",
-   "slide7", "slide8", "slide9", "slide10", "slide11", "slide12", "slide13"]
+   "slide7", "slide8", "slide9", "slide10", "slide11", "slide12"]
  
  
 
@@ -20,7 +20,7 @@ export class SliderComponent {
   
     this.interval = setInterval(()=>{
       
-      if(this.slidePosition === 13){
+      if(this.slidePosition === 12){
 
         this.marginValue = "850px"
         this.slidePosition = 0
