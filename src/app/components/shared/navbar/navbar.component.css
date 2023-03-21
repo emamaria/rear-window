@@ -37,3 +37,21 @@ header nav{
     margin-left: 20px;
     color: #2e9cca;
 }
+
+
+@media screen and (max-width:600px) {
+ 
+     .title{
+        display: none;
+     }
+
+     header{
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 16px;
+     }
+   
+  }
+   
+  
+  
