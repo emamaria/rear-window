@@ -11,7 +11,9 @@ export class SliderComponent implements OnInit {
    marginValue: string =""
    interval:any
    slidePosition:number = 1
-
+   bigSliderSize: number = 850
+   midSliderSize: number = 425
+   smallSliderSize: number = 250
    width:number = 0
    
    images: string[] = ["slide1", "slide2", "slide3", "slide4", "slide5", "slide6",
@@ -23,7 +25,7 @@ export class SliderComponent implements OnInit {
     //uso el HostListener para que me detecte desde que arranca la app como durante
     //el tamaño al que esta viendo el usuario y segun el tamaño cambir el width del px con
     //que hay que desplazar el slider
-    this.width = (this.getScreenWidth > 600)?850:425
+    this.width = (this.getScreenWidth <= 600)?this.smallSliderSize:(this.getScreenWidth <= 900)?this.midSliderSize:this.bigSliderSize
   }
 
   ngOnInit(){
@@ -49,8 +51,9 @@ export class SliderComponent implements OnInit {
  @HostListener('window: resize',['$event'])
  onWindowResize(){
   this.getScreenWidth = window.innerWidth;
-  this.width = (this.getScreenWidth > 600)?850:425
-
+  this.width = (this.getScreenWidth <= 600)?this.smallSliderSize:(this.getScreenWidth <= 900)?this.midSliderSize:this.bigSliderSize
+  
+  // (this.getScreenWidth <= 420)?this.smallSliderSize:(this.getScreenWidth >= 883)?this.bigSliderSize:this.midSliderSize
   console.log("este width", this.width);
  } 
 
