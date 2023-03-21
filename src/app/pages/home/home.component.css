@@ -31,3 +31,34 @@ h1{
     padding: 100px 0px 40px 0px;
     color: #2e9cca;
 }
+
+
+@media screen and (max-width:600px) {
+ 
+    h1{
+        font-size: 40px;
+        padding: 50px 0px 20px 0px;
+    }
+
+    section h2{
+        /* color: #2e9cca; */
+        font-size: 20px;
+    }
+
+    
+    .plot_container{
+        margin-top: 10px;
+        
+    }
+
+    .plot_container p{
+        margin-top: 0px;
+        font-size: 14px;
+        
+    }
+    
+    
+  }
+   
+  
+  
