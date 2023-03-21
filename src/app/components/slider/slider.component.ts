@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, OnInit} from '@angular/core';
 
 
 @Component({
@@ -6,23 +6,33 @@ import { Component } from '@angular/core';
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.css']
 })
-export class SliderComponent {
+export class SliderComponent implements OnInit {
+   getScreenWidth: any;
    marginValue: string =""
    interval:any
    slidePosition:number = 1
-   width:number = 850
+
+   width:number = 0
+   
    images: string[] = ["slide1", "slide2", "slide3", "slide4", "slide5", "slide6",
    "slide7", "slide8", "slide9", "slide10", "slide11", "slide12"]
  
- 
 
   constructor(){
-  
+    this.getScreenWidth = window.innerWidth;
+    //uso el HostListener para que me detecte desde que arranca la app como durante
+    //el tamaño al que esta viendo el usuario y segun el tamaño cambir el width del px con
+    //que hay que desplazar el slider
+    this.width = (this.getScreenWidth > 600)?850:425
+  }
+
+  ngOnInit(){
+   
     this.interval = setInterval(()=>{
       
       if(this.slidePosition === 12){
 
-        this.marginValue = "850px"
+        this.marginValue = this.width.toString()
         this.slidePosition = 0
         
       }
@@ -30,14 +40,19 @@ export class SliderComponent {
       this.slidePosition++
       console.log(this.marginValue);
       console.log(this.slidePosition);
+    
     }, 2000)
   
+    
   }
 
+ @HostListener('window: resize',['$event'])
+ onWindowResize(){
+  this.getScreenWidth = window.innerWidth;
+  this.width = (this.getScreenWidth > 600)?850:425
 
+  console.log("este width", this.width);
+ } 
 
-  
-
-  
 
 }

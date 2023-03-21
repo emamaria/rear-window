@@ -3,7 +3,26 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: red; */
+    font-size: 18px;
+    color: white;
+   
+}
+
+
+
+.plot_container{
+    margin-top: 40px;
+    width: 80%;
+    
+}
+
+.plot_container p{
+    margin-top: 10px;
+}
+
+section h2{
+    /* color: #2e9cca; */
+    font-size: 45px;
 }
 
 h1{

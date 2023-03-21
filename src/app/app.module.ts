@@ -12,6 +12,7 @@ import { TechnicalComponent } from './pages/technical/technical.component';
 import { SliderComponent } from './components/slider/slider.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,12 +21,14 @@ import { SliderComponent } from './components/slider/slider.component';
     CastsComponent,
     HomeComponent,
     TechnicalComponent,
-    SliderComponent
+    SliderComponent,
+  
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRouterModule
+    AppRouterModule,
+  
    
   ],
   providers: [],

@@ -1,26 +1,50 @@
 .slideshow{
-    /* background-color: darkblue; */
+   
     width: 850px;
     overflow: hidden;
     height: 480px;
-    /* border: 3px #29648a solid; */
     border: 3px white solid;
    
    
 }
 
 img{
+  
     width: 850px;
     height: 480px;
+    object-fit: cover;
     
 }
+
+
 
 .slideshow ul{
     list-style-type: none;
     display: flex;
     padding: 0;
     margin-left: 0px;
-    background-color: pink;
+    background-color: black;
+   
 }
 
+@media (max-width:600px) {
+ 
+    
+  img{
+     height: 240px;
+     width: 425px;
+    }
+
+
+    .slideshow{
+      
+        width: 425px;
+        overflow: hidden;
+        height: 240px;
+        border: 3px white solid;
+       
+       
+    }
+}
+ 
 
