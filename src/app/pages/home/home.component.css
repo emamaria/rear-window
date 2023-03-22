@@ -8,6 +8,29 @@ section{
    
 }
 
+.main_character{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_characters_container{
+  
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   /* align-content: center; */
+}
+
+.main_character_img{
+  width: 220px;
+  height: 155px;
+ 
+}
+
 
 
 .plot_container{
@@ -22,7 +45,8 @@ section{
 
 section h2{
     /* color: #2e9cca; */
-    font-size: 45px;
+    font-size: 35px;
+    margin-top: 20px;
 }
 
 h1{

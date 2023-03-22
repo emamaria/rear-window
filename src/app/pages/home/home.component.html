@@ -6,6 +6,19 @@
   <div class="plot_container">
     <h2>Plot</h2>
     <p>{{ plot }}</p>
+
+    <h2>Characters</h2>
+    <div class="main_characters_container">
+      <div class="main_character" *ngFor="let character of getCharacters">
+        <h3>{{ character.name }}</h3>
+        <img
+          class="main_character_img"
+          alt="{{ character.img }}"
+          src="../../../assets/char-img/{{ character.img }}"
+        />
+        <p>{{ character.role }}</p>
+      </div>
+    </div>
   </div>
 </section>
 <section class="section_containertrailer"></section>
