@@ -4,10 +4,10 @@
 </section>
 <section class="section_container plot">
   <div class="plot_container">
-    <h2>Plot</h2>
-    <p>{{ plot }}</p>
+    <h2 class="plot_title">Plot</h2>
+    <p class="plot">{{ plot }}</p>
 
-    <h2>Characters</h2>
+    <h2 class="characters_title">Characters</h2>
     <div class="main_characters_container">
       <div class="main_character" *ngFor="let character of getCharacters">
         <h3>{{ character.name }}</h3>
