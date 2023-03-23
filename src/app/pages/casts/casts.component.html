@@ -1,1 +1,20 @@
-<p>casts works!</p>
+<section class="cast_section">
+  <h1>Casts Info</h1>
+  <div class="casts_container">
+    <div *ngFor="let cast of castsBio" class="cast_container">
+      <img
+        class="main_cast_img"
+        alt="{{ cast.name }}"
+        src="../../../assets/cast-img/{{ cast.img }}"
+      />
+
+      <div class="cast_info">
+        <h2>{{ cast.name }}</h2>
+        <p><span>Birt Date</span> : {{ cast.birthDate }}</p>
+        <p><span>Birt Place</span> : {{ cast.birthPlace }}</p>
+        <p><span>Death Date</span> : {{ cast.deathDate }}</p>
+        <p><span>NickName</span> : {{ cast.nickName }}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -31,13 +31,7 @@ export class MoviesService {
     params: {tconst: 'tt0047396'}
   }
 
-  // options2 = {
-  //   headers: {
-  //     'X-RapidAPI-Key': this.apiKey,
-  //     'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
-  //   },
-  //   params: {nconst: 'nm0000071'}
-  // }
+
   
 
   constructor(private http: HttpClient){ 
@@ -61,16 +55,25 @@ export class MoviesService {
 
     let url = "https://online-movie-database.p.rapidapi.com/actors/get-bio"
 
-    // return  this.http.get(url,this.options2)
-
+  
    this.actorsId.forEach((actor:string) => {
       this.http.get(url, { headers: {
         'X-RapidAPI-Key': this.apiKey,
         'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
       },
       params: {nconst: actor} }).subscribe((data:any) => {
-        
-           console.log(this.actorsBio.push(data.name));
+            console.log("cast data", data);
+           this.actorsBio.push({
+            name: data.name,
+            birthDate: data.birthDate,
+            deathDate: data.deathDate,
+            birthPlace: data.birthPlace,
+            img: data.image,
+            nickName: data.nicknames[0],
+            tradeMarks: [data.trademarks]
+           })
+
+           console.log("biografia", this.actorsBio);
           
           console.log(`ok ${actor}`);
     
