@@ -1,0 +1,29 @@
+h1{
+
+    text-align: center;
+    padding: 100px 0px 60px 0px;
+    color: #2e9cca;
+}
+
+
+.poster_img{
+    /* transform: rotate(-10deg) */
+}
+
+.poster_container{
+   display: flex;
+   justify-content: center;
+   position: relative;
+ 
+}
+
+
+
+.data_container{
+    width: 400px;
+    background-color: white;
+    height: 650px;
+    position: absolute;
+    top: 100px;
+    /* transform: rotate(-10deg) */
+}

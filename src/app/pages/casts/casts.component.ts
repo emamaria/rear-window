@@ -53,7 +53,7 @@ export class CastsComponent {
       name: "Judith Evelyn",
       birthDate: "March 20th 1909",
       birthPlace: "Seneca, South Dakota, USA",
-      deathDate: "May 7th 1909",
+      deathDate: "May 7th 1967",
       img: "img6.webp",
       quotes: "?",
     }
