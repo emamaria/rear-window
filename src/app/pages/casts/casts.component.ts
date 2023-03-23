@@ -15,7 +15,7 @@ export class CastsComponent {
       birthPlace: "Indiana, Pennsylvania, USA",
       deathDate: "July 2nd 1997",
       img: "img1.jpg",
-      nickName: "Jimmy",
+      quotes: "Learn from the masters, learn from your contemporaries. Always try to update yourself.",
     },
     {
       name: "Grace Patricia Kelly",
@@ -23,7 +23,7 @@ export class CastsComponent {
       birthPlace: "Philadelphia, Pennsylvania, USA",
       deathDate: "September 14th 1982",
       img: "img2.jpg",
-      nickName: "Graciebird",
+      quotes: "Getting angry doesn't solve anything.",
     },
     {
       name: "Raymond William Stacey Burr",
@@ -31,7 +31,7 @@ export class CastsComponent {
       birthPlace: "New Westminster, Canada",
       deathDate: "September 12th 1993",
       img: "img3.jfif",
-      nickName: "Ray",
+      quotes: "Over a period of time, if you have a successful show, then you have a devoted audience",
     },
     {
       name: "Thelma Ritter",
@@ -39,7 +39,7 @@ export class CastsComponent {
       birthPlace: "New York, New York, USA",
       deathDate: "February 5th 1969",
       img: "img4.jfif",
-      nickName: "?",
+      quotes: "Nobody ever invented a polite word for a killing yet",
     },
     {
       name: "Wendell Corey",
@@ -47,7 +47,7 @@ export class CastsComponent {
       birthPlace: "Dracut, Massachusetts, USA",
       deathDate: "November 8th 1968",
       img: "img5.jfif",
-      nickName: "?",
+      quotes: "?",
     },
     {
       name: "Judith Evelyn",
@@ -55,7 +55,7 @@ export class CastsComponent {
       birthPlace: "Seneca, South Dakota, USA",
       deathDate: "May 7th 1909",
       img: "img6.webp",
-      nickName: "J.E.Allen",
+      quotes: "?",
     }
 
   ]
