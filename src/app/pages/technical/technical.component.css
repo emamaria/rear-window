@@ -1,3 +1,7 @@
+
+ 
+
+
 h1{
 
     text-align: center;
@@ -6,24 +10,78 @@ h1{
 }
 
 
-.poster_img{
-    /* transform: rotate(-10deg) */
-}
+
 
 .poster_container{
+   background-image: url("../../../assets/poster/Rear_Window_poster.png");
+   background-repeat: no-repeat;
    display: flex;
    justify-content: center;
-   position: relative;
+   background-position: center;
+   /* position: relative; */
+   
  
 }
 
+
+span{
+    font-weight: bold ;
+}
 
 
 .data_container{
     width: 400px;
     background-color: white;
-    height: 650px;
-    position: absolute;
-    top: 100px;
-    /* transform: rotate(-10deg) */
+    height: 580px;
+    margin:  20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
 }
+
+.data_container p{
+    margin-top: 15px;
+}
+
+@media screen and (max-width:600px) {
+ 
+    h1{
+        font-size: 40px;
+        padding: 50px 0px 20px 0px;
+    }
+
+    section h2{
+        /* color: #2e9cca; */
+        font-size: 20px;
+    }
+
+    .data_container{
+        margin-top: 50px;
+        width: 80%;
+        font-size: 10px;
+        top: 20px;
+        height: 50vh;
+    }
+    
+    .poster_container{
+        
+      margin-top: 50px;
+     }
+
+     .poster_img{
+        width: 260px;
+        margin-top: 40px;
+    }
+  
+
+    .data_container p{
+        margin-top: 6px;
+    }
+    
+    
+   
+    
+    
+  }
+   
+  
