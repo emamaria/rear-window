@@ -16,8 +16,7 @@ export class SliderComponent implements OnInit {
    smallSliderSize: number = 250
    width:number = 0
    
-   images: string[] = ["slide1", "slide2", "slide3", "slide4", "slide5", "slide6",
-   "slide7", "slide8", "slide9", "slide10", "slide11", "slide12"]
+   images: string[] = ["slide1", "slide2", "slide3", "slide4"]
  
 
   constructor(){
@@ -32,7 +31,7 @@ export class SliderComponent implements OnInit {
    
     this.interval = setInterval(()=>{
       
-      if(this.slidePosition === 12){
+      if(this.slidePosition === 4){
 
         this.marginValue = this.width.toString()
         this.slidePosition = 0

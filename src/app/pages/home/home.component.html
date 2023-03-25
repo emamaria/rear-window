@@ -11,11 +11,6 @@
     <div class="main_characters_container">
       <div class="main_character" *ngFor="let character of getCharacters">
         <h3>{{ character.name }}</h3>
-        <img
-          class="main_character_img"
-          alt="{{ character.img }}"
-          src="../../../assets/char-img/{{ character.img }}"
-        />
         <p>{{ character.role }}</p>
       </div>
     </div>

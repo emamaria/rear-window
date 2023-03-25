@@ -30,7 +30,7 @@ export class CastsComponent {
       birthDate: "May 21th 1917",
       birthPlace: "New Westminster, Canada",
       deathDate: "September 12th 1993",
-      img: "img3.jfif",
+      img: "img3.jpg",
       quotes: "Over a period of time, if you have a successful show, then you have a devoted audience",
     },
     {
@@ -38,7 +38,7 @@ export class CastsComponent {
       birthDate: "February 14th 1905",
       birthPlace: "New York, New York, USA",
       deathDate: "February 5th 1969",
-      img: "img4.jfif",
+      img: "img4.jpg",
       quotes: "Nobody ever invented a polite word for a killing yet",
     },
     {
@@ -46,7 +46,7 @@ export class CastsComponent {
       birthDate: "March 20th 1914",
       birthPlace: "Dracut, Massachusetts, USA",
       deathDate: "November 8th 1968",
-      img: "img5.jfif",
+      img: "img5.jpg",
       quotes: "?",
     },
     {
@@ -54,7 +54,7 @@ export class CastsComponent {
       birthDate: "March 20th 1909",
       birthPlace: "Seneca, South Dakota, USA",
       deathDate: "May 7th 1967",
-      img: "img6.webp",
+      img: "img6.jpg",
       quotes: "?",
     }
 
