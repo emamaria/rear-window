@@ -27,6 +27,21 @@ img{
    
 }
 
+.image_attribution{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    
+  }
+  
+  .image_attribution a{
+    color: white;
+    text-decoration: none;
+  }
+
+
 @media screen and (max-width:900px) {
  
     
@@ -43,9 +58,19 @@ img{
          
          
       }
+
+      .image_attribution{
+       
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+        
+      }
   }
    
   
+
+ 
   
 
 @media screen and (max-width:600px) {
@@ -63,6 +88,8 @@ img{
         height: 185px;
        
     }
+
+    
 }
  
 
