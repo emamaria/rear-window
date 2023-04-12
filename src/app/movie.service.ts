@@ -1,13 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { environment } from '../environments/environment.development';
+// import { environment } from '../environments/environment.development';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MoviesService {
 
-  private apiKey:string = environment.apiKey
+  // private apiKey:string = environment.apiKey
 
   mainCharacters: any[] = [
     {name: "L. B. Jefferies", img: "character1.jpg", role: "Jefferies, a celebrated photojournalist."},
@@ -25,7 +25,7 @@ export class MoviesService {
 
  options = {
     headers: {
-      'X-RapidAPI-Key': this.apiKey,
+      // 'X-RapidAPI-Key': this.apiKey,
       'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
     params: {tconst: 'tt0047396'}
@@ -58,7 +58,7 @@ export class MoviesService {
   
    this.actorsId.forEach((actor:string) => {
       this.http.get(url, { headers: {
-        'X-RapidAPI-Key': this.apiKey,
+        // 'X-RapidAPI-Key': this.apiKey,
         'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
       },
       params: {nconst: actor} }).subscribe((data:any) => {
