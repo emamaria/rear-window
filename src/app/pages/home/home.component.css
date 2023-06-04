@@ -56,6 +56,7 @@ section{
 
 .plot{
     margin-top: 40px;
+    margin-bottom: 150px;
 }
 
 section h2{
@@ -69,6 +70,7 @@ h1{
     text-align: center;
     padding: 100px 0px 40px 0px;
     color: #2e9cca;
+    margin-top: 40px;
 }
 
 
@@ -95,6 +97,7 @@ h1{
     
     .plot{
         margin-top: 25px;
+       
     }
 
     .main_characters_container{

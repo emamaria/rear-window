@@ -7,6 +7,7 @@ h1{
     text-align: center;
     padding: 100px 0px 60px 0px;
     color: #2e9cca;
+    margin-top: 50px;
 }
 
 
@@ -20,7 +21,7 @@ h1{
    background-position: center;
    margin-bottom: 40px;
    /* position: relative; */
-   
+   margin-bottom: 150px;
  
 }
 
@@ -38,6 +39,7 @@ span{
     display: flex;
     flex-direction: column;
     padding: 15px;
+   
 }
 
 .data_container p{

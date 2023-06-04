@@ -42,7 +42,7 @@ export class SliderComponent implements OnInit {
       console.log(this.marginValue);
       console.log(this.slidePosition);
     
-    }, 2000)
+    }, 1500)
   
     
   }
