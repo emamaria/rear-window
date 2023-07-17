@@ -13,7 +13,7 @@
         <p><span>Birth Date</span> : {{ cast.birthDate }}</p>
         <p><span>Birth Place</span> : {{ cast.birthPlace }}</p>
         <p><span>Death Date</span> : {{ cast.deathDate }}</p>
-        <p><span>Quotes</span> : {{ cast.quotes }}</p>
+        <p *ngIf="cast.quotes"><span>Quotes</span> : {{ cast.quotes }}</p>
       </div>
     </div>
   </div>

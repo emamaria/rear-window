@@ -47,7 +47,7 @@ export class CastsComponent {
       birthPlace: "Dracut, Massachusetts, USA",
       deathDate: "November 8th 1968",
       img: "img5.jpg",
-      quotes: "?",
+      quotes: "",
     },
     {
       name: "Judith Evelyn",
@@ -55,7 +55,7 @@ export class CastsComponent {
       birthPlace: "Seneca, South Dakota, USA",
       deathDate: "May 7th 1967",
       img: "img6.jpg",
-      quotes: "?",
+      quotes: "",
     }
 
   ]
